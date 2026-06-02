@@ -21,7 +21,7 @@ $primary-color: #f76c0d;
         } 
         .div{
             .cssmenu{
-                .css_wrap{
+                &.css_wrap{
                        border-bottom:3px solid $primary-color;
                         }
                            }

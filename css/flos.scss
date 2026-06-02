@@ -22,7 +22,7 @@ $primary-color: #f76c0d;
         div{
             .cssmenu{
                 .clearfix{
-                        .css_wrap{
+                        .css_wrap:before{
                                 border-bottom:3px solid $primary-color;
                                 }
                         }

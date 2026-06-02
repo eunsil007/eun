@@ -20,3 +20,18 @@ $primary-color: #f76c0d;
 
         } 
 }
+#header35 .web_logo .search_ {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -200px;
+    margin-top: -23px;
+    width: 400px;
+    height: 46px;
+    line-height: 46px; 
+    border-radius: 23px; 
+    border: 2px solid #f76c0d; 
+    box-sizing: border-box;
+    background-color: transparent;
+    padding-left: 20px;
+}

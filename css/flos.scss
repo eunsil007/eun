@@ -19,13 +19,14 @@ $primary-color: #f76c0d;
                            }
 
         } 
-        .div{
+        div{
             .cssmenu{
-                &.css_wrap{
-                       border-bottom:3px solid $primary-color;
+                .clearfix{
+                        .css_wrap{
+                                border-bottom:3px solid $primary-color;
+                                }
                         }
-                           }
-
+                }
         } 
         .web_logo{
                 div{

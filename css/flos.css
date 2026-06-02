@@ -22,3 +22,7 @@
 #winw .web_logo div.search_ form a.search_icon .lnr {
   color: #f76c0d;
 }
+
+body .clearfix::before, body .clearfix::after, body .dl-horizontal dd::before, body .dl-horizontal dd::after, body .container::before, body .container::after, body .container-fluid::before, body .container-fluid::after, body .row::before, body .row::after, body .form-horizontal .form-group::before, body .form-horizontal .form-group::after, body .note-editor .btn-toolbar::before, body .note-editor .btn-toolbar::after, body .note-editor .btn-group-vertical > .note-editor .btn-group::before, body .note-editor .btn-group-vertical > .note-editor .btn-group::after, body .nav::before, body .nav::after, body .navbar::before, body .navbar::after, body .navbar-header::before, body .navbar-header::after, body .navbar-collapse::before, body .navbar-collapse::after, body .note-editor .pager::before, body .note-editor .pager::after, body .panel-body::before, body .panel-body::after, body .modal-header::before, body .modal-header::after, body .modal-footer::before, body .modal-footer::after {
+  display: block !important;
+}

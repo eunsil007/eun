@@ -11,6 +11,9 @@
 #winw .top_logo .logoArea img {
   display: none !important;
 }
+#winw div .cssmenu .clearfix .css_wrap:before {
+  border-bottom: 3px solid #f76c0d !important;
+}
 #winw .web_logo div.search_ {
   border-radius: 50px;
   border: 1.5px solid #f76c0d;

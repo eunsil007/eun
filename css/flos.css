@@ -11,14 +11,14 @@
 #winw .top_logo .logoArea img {
   display: none !important;
 }
-#winw .web_logo .search_ {
+#winw .web_logo div.search_ {
   border-radius: 50px;
   border: 2px solid #f76c0d;
   background-color: transparent;
 }
-#winw .web_logo .search_ form a.search_icon {
+#winw .web_logo div.search_ form a.search_icon {
   background-color: transparent;
 }
-#winw .web_logo .search_ form a.search_icon .lnr {
+#winw .web_logo div.search_ form a.search_icon .lnr {
   color: #f76c0d;
 }

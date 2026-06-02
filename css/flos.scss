@@ -34,7 +34,8 @@ $primary-color: #f76c0d;
                         // box-sizing: border-box;
                         background-color: transparent;
                         // padding-left: 20px;
-                        a{
+                        form{
+                             a{
 
                                 &.search_icon{
                                         background-color: transparent;
@@ -44,6 +45,8 @@ $primary-color: #f76c0d;
 
                                 }
                         }
+                        }
+                       
                 }
         }
 }

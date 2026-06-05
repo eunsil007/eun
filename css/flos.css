@@ -1,3 +1,4 @@
+@charset "UTF-8";
 #winw .top_logo .logoArea {
   width: 150px;
   background-position: center;
@@ -13,6 +14,17 @@
 }
 #winw div .cssmenu .clearfix .css_wrap:before {
   border-bottom: 3px solid #f76c0d;
+}
+#winw div .toplink a:nth-child(3),
+#winw div .toplink a:nth-child(1) {
+  display: none !important;
+}
+#winw div a:nth-child(2) {
+  font-size: 0 !important;
+}
+#winw div a:nth-child(2):before {
+  content: "고객센터";
+  font-size: 13px !important;
 }
 #winw .web_logo div.search_ {
   border-radius: 50px;

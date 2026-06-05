@@ -30,15 +30,17 @@ $primary-color: #f76c0d;
         } 
         div{
             .toplink{
-                 > a:nth-child(1) {
+                  a:nth-child(3), 
+                  a:nth-child(1){
                    display: none !important;
                                   }
                     }
-                &::before {
-                   content: "로그인" !important;
-                   display: inline-block;
-                   padding: 0 10px;
-                   font-size: 13px !important;
+                 a:nth-child(2) {
+                        font-size: 0 !important;
+                        &:before{
+                                content: "고객센터";
+                                font-size: 13px !important;
+                        }
 }
         } 
         .web_logo{

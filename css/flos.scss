@@ -1,6 +1,6 @@
 $primary-color: #f76c0d;
 
-#winw{
+body{
        .top_logo{
             
                 .logoArea{
@@ -36,7 +36,7 @@ $primary-color: #f76c0d;
                         align-items: center;
                         line-height: 0;
                         justify-content: end;                        
-                }
+                
                   a{
                         padding-left: 16px;
                         line-height: 1;
@@ -48,7 +48,7 @@ $primary-color: #f76c0d;
                   a:nth-child(1){
                    display: none !important;
                                   }
-                    }
+                    
                   a:nth-child(2) {
                         font-size: 0 !important;
                         order:2;
@@ -56,9 +56,10 @@ $primary-color: #f76c0d;
                                 content: "고객센터" !important;
                                 font-size: 15px !important;                               
                                 white-space: nowrap;
-                                color: #F76C0D;
-                              
+                                color: #F76C0D;                              
                         }
+                }
+        }
 }
         } 
         .web_logo{

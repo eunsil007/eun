@@ -30,16 +30,34 @@ $primary-color: #f76c0d;
         } 
         div{
             .toplink{
+                li{
+                        font-size: 0;
+                        display: flex;          
+                        align-items: center;
+                        line-height: 0;
+                        justify-content: end;                        
+                }
+                  a{
+                        padding-left: 16px;
+                        line-height: 1;
+                        &:before{
+                                display: none !important;
+                        }
+                  }
                   a:nth-child(3), 
                   a:nth-child(1){
                    display: none !important;
                                   }
                     }
-                 a:nth-child(2) {
+                  a:nth-child(2) {
                         font-size: 0 !important;
-                        &:before{
-                                content: "고객센터";
-                                font-size: 13px !important;
+                        order:2;
+                        &:after{
+                                content: "고객센터" !important;
+                                font-size: 15px !important;                               
+                                white-space: nowrap;
+                                color: #F76C0D;
+                              
                         }
 }
         } 

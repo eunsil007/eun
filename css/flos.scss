@@ -28,6 +28,16 @@ $primary-color: #f76c0d;
                         }
                 }
         } 
+        div{
+            .toplink{
+                <li>
+			<a href="javascript:GoMenu('cart');" onfocus="this.blur()" class="top_txt">고객센터</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="javascript:GoMenu('orderlist');" onfocus="this.blur()" class="top_txt">주문조회</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="javascript:GoMenu('join');" onfocus="this.blur()" class="top_txt">회원가입</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="javascript:GoMenu('login');" onfocus="this.blur()" class="top_txt">로그인</a>
+                        </li>
+                }
+        } 
         .web_logo{
                 div{
                         &.search_ {

@@ -30,13 +30,14 @@ $primary-color: #f76c0d;
         } 
         div{
             .toplink{
-                <li>
-			<a href="javascript:GoMenu('cart');" onfocus="this.blur()" class="top_txt">고객센터</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="javascript:GoMenu('orderlist');" onfocus="this.blur()" class="top_txt">주문조회</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="javascript:GoMenu('join');" onfocus="this.blur()" class="top_txt">회원가입</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="javascript:GoMenu('login');" onfocus="this.blur()" class="top_txt">로그인</a>
-                        </li>
+                .toplink a:nth-child(1) {
+                 font-size: 0 !important; 
                 }
+                }
+                .toplink a:nth-child(1)::after {
+                 content: "로그인" !important; 
+                 font-size: 13px !important; 
+}
         } 
         .web_logo{
                 div{

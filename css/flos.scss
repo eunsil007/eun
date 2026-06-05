@@ -31,7 +31,7 @@ $primary-color: #f76c0d;
         div{
             .toplink{
                 &.toplink a:nth-child(1) {
-                 font-size: 0 !important; 
+                 display: none !important;
                 }
                 }
                 .toplink a:nth-child(1)::after {

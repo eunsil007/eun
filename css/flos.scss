@@ -30,6 +30,7 @@ $primary-color: #f76c0d;
         } 
         div{
             .toplink{
+                width: 1600px !important;
                 li{
                         font-size: 0;
                         display: flex;          
@@ -72,16 +73,14 @@ $primary-color: #f76c0d;
 }
         } 
         .web_logo{
+                display: flex;
+                justify-content: center;
+                align-items: center;
                 div{
                         &.search_ {
-                                // position: absolute;
-                                // top: 50%;
-                                // left: 50%;
-                                // margin-left: -200px;
-                                // margin-top: -23px;
-                                // width: 400px;
-                                // height: 46px;
-                                // line-height: 46px; 
+                                position: unset;
+                                margin: 0;
+
                                 border-radius: 50px; 
                                 border: 1.5px solid $primary-color ; 
                                 // box-sizing: border-box;
@@ -104,6 +103,21 @@ $primary-color: #f76c0d;
 
                         
              }
+        }
+        .flos_top_util{
+               
+                >div{
+                        display: flex !important;
+                        justify-content: center !important;
+                        align-items: center !important;
+                        gap: 25px !important;
+                        padding: 0 !important;
+                        margin: 0 !important;
+                        right:0 !important;
+                        .util-item{
+                            white-space: nowrap !important;
+                        }
+                }
         }
         .m_visual{
                 .box_{

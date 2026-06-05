@@ -15,6 +15,9 @@
 #winw div .cssmenu .clearfix .css_wrap:before {
   border-bottom: 3px solid #f76c0d;
 }
+#winw div .toplink {
+  width: 1600px !important;
+}
 #winw div .toplink li {
   font-size: 0;
   display: flex;
@@ -50,7 +53,14 @@
   white-space: nowrap;
   color: #F76C0D;
 }
+#winw .web_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 #winw .web_logo div.search_ {
+  position: unset;
+  margin: 0;
   border-radius: 50px;
   border: 1.5px solid #f76c0d;
   background-color: transparent;
@@ -60,6 +70,18 @@
 }
 #winw .web_logo div.search_ form a.search_icon .lnr {
   color: #f76c0d;
+}
+#winw .flos_top_util > div {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 25px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  right: 0 !important;
+}
+#winw .flos_top_util > div .util-item {
+  white-space: nowrap !important;
 }
 #winw .m_visual .box_ {
   border-top: 0 !important;

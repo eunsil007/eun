@@ -30,11 +30,11 @@ $primary-color: #f76c0d;
         } 
         div{
             .toplink{
-                & > a:nth-child(1) {
+                 > a:nth-child(1) {
                    display: none !important;
                                   }
                     }
-                .toplink::before {
+                &::before {
                    content: "로그인" !important;
                    display: inline-block;
                    padding: 0 10px;

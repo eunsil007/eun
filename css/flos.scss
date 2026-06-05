@@ -30,14 +30,16 @@ $primary-color: #f76c0d;
         } 
         div{
             .toplink{
-                &.toplink a:nth-child(1) {
-                 display: none !important;
-                }
-                }
-                .toplink a:nth-child(1)::after {
-                 content: "로그인" !important; 
-                 font-size: 13px !important; 
-                }
+                & > a:nth-child(1) {
+                   display: none !important;
+                                  }
+                    }
+                .toplink::before {
+                   content: "로그인" !important;
+                   display: inline-block;
+                   padding: 0 10px;
+                   font-size: 13px !important;
+}
         } 
         .web_logo{
                 div{

@@ -1,6 +1,6 @@
 $primary-color: #f76c0d;
 
-body{
+#winw{
        .top_logo{
             
                 .logoArea{
@@ -44,14 +44,24 @@ body{
                                 display: none !important;
                         }
                   }
-                  a:nth-child(3), 
+                   
                   a:nth-child(1){
                    display: none !important;
                                   }
+                 a:nth-child(3) {
+                        font-size: 0 !important;
+                        order:2;
+                        &:after{
+                                content: "제휴문의" !important;
+                                font-size: 15px !important;                               
+                                white-space: nowrap;
+                                                          
+                        }
+                }
                     
                   a:nth-child(2) {
                         font-size: 0 !important;
-                        order:2;
+                        order:3;
                         &:after{
                                 content: "고객센터" !important;
                                 font-size: 15px !important;                               

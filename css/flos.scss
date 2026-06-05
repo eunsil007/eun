@@ -105,7 +105,7 @@ $primary-color: #f76c0d;
              }
         }
         .flos_top_util{
-               
+                 right:0 !important;
                 >div{
                         display: flex !important;
                         justify-content: center !important;
@@ -113,7 +113,7 @@ $primary-color: #f76c0d;
                         gap: 25px !important;
                         padding: 0 !important;
                         margin: 0 !important;
-                        right:0 !important;
+                      
                         .util-item{
                             white-space: nowrap !important;
                         }
